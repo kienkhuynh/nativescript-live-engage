@@ -8,4 +8,5 @@ export declare class LiveEngage extends common.LiveEngage {
     static initializeChat(brandId: string): void;
     loadChat(brandId: string, appId: string): void;
     setUserProfile(): void;
+    private showReady(brandId);
 }
